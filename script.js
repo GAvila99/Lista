@@ -29,11 +29,11 @@ while (validação) {
 
 
 function adicionarItem() {
-    let entrada = prompt('Digite o nome do item: ');
+    let entrada = parseInt(document.getElementById('item').value);
     item.push(entrada);
-    entrada = prompt('Digite o valor do item: ');
+    entrada = parseFloat(document.getElementById('valor').value);
     valor.push(entrada);
-    entrada = prompt('Digite a quantidade do item: ');
+    entrada = parseInt(document.getElementById('qtd').value;
     qtd.push(entrada);
 }
 
